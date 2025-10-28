@@ -11,6 +11,8 @@ public class usingAccesModiferwithDataType {
 class Main {
     public static void main(String[] args) {
         usingAccesModiferwithDataType D = new usingAccesModiferwithDataType();
-        D.showDetails(); // Accessing public method
+       D.showDetails(); // Accessing public method
+        //System.out.println(D.age);
+        //System.out.println(D.name);
     }
 }
