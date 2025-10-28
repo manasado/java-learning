@@ -1,6 +1,8 @@
 public class StringExample {
     public static void main(String[] args) {
         String name = "Java Programming";
+        String name1 = "Hello";
+        System.out.println("add string:" +name.concat(name1));
         System.out.println("Length: " + name.length());    // Common String methods
         System.out.println("Uppercase: " + name.toUpperCase());
         System.out.println("Lowercase: " + name.toLowerCase());
